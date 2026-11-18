@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{font-family:Manrope,system-ui,sans-serif;color:#e5edf7;background:#080e18;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;min-width:320px;background:radial-gradient(circle at 50% -20%,#17324a 0,#080e18 55%)}
+.shell{max-width:1180px;margin:auto;padding:54px 28px 34px}.hero{text-align:center;padding:30px 0 46px}
+.eyebrow,.step{font:500 11px 'DM Mono',monospace;letter-spacing:.18em;color:#5eead4}
+h1{font-size:clamp(42px,7vw,76px);letter-spacing:-.07em;margin:16px 0 8px}h1 span{color:#5eead4}
+.hero p{color:#9aabc0;margin:0}.upload-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.upload-card{display:flex;flex-direction:column;gap:15px;padding:24px;border:1px solid #26384c;border-radius:18px;background:#101b2a;cursor:pointer}
+.upload-card strong{font-size:17px}.upload-card input{width:100%;color:#9aabc0}
+.error{padding:12px 16px;border-radius:12px;background:#4c1d2b;color:#fecdd3}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}
+.stat{border:1px solid #26384c;background:#101b2a;border-radius:14px;padding:16px;text-align:left;color:#e5edf7;cursor:pointer;display:flex;flex-direction:column;gap:5px}
+.stat strong{font-size:28px}.stat span{color:#9aabc0;text-transform:capitalize}.stat.changed strong{color:#fbbf24}.stat.added strong{color:#5eead4}.stat.removed strong{color:#fb7185}
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin:28px 0 12px}h2{font-size:20px}
+select{background:#101b2a;color:#e5edf7;border:1px solid #34465c;border-radius:10px;padding:10px}
+.table-wrap{overflow:auto;border:1px solid #26384c;border-radius:14px}table{width:100%;border-collapse:collapse;min-width:760px}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid #233247;font-size:13px}th{color:#91a5bb;font:500 11px 'DM Mono',monospace;text-transform:uppercase}
+.endpoint{font-family:'DM Mono',monospace;max-width:430px;overflow-wrap:anywhere}
+.pill{padding:5px 9px;border-radius:99px;background:#26384c;text-transform:capitalize}.pill.added{color:#5eead4}.pill.removed{color:#fb7185}.pill.changed{color:#fbbf24}
+footer{text-align:center;color:#6e8299;font-size:12px;padding:34px 0}
+@media(max-width:680px){.shell{padding:24px 14px}.upload-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.toolbar{align-items:flex-start;gap:12px;flex-direction:column}}
