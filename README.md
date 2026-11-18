@@ -46,7 +46,15 @@ npm start
 ## :file_folder: Folder Structure
 
 ```text
-har-diff-viewer/\n├── index.html\n├── package.json\n├── vite.config.ts\n├── src/App.tsx\n├── src/diff.ts\n├── src/diff.test.ts\n├── src/style.css\n└── assets/illustration.svg
+har-diff-viewer/
+├── index.html
+├── package.json
+├── vite.config.ts
+├── src/App.tsx
+├── src/diff.ts
+├── src/diff.test.ts
+├── src/style.css
+└── assets/illustration.svg
 ```
 
 ## :world_map: Roadmap
